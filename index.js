@@ -16,18 +16,18 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift()
 }
 
-function AppendKitten(name) {
+function appendKitten(name) {
   kittens = kittens + name;
 }
 
-function PrependKitten(name) {
+function prependKitten(name) {
   kittens = name + kittens;
 }
 
-function RemoveLastKitten() {
+function removeLastKitten() {
   kittens.slice(-1)
 }
 
-function RemoveFirstKitten() {
+function removeFirstKitten() {
   kittens.slice(1)
 }
