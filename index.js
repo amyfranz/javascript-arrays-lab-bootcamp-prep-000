@@ -9,11 +9,11 @@ function destructivelyPrependKitten(name) {
 }
 
 function destructivelyRemoveLastKitten() {
-  kitten.pop()
+  kittens.pop()
 }
 
 function destructivelyRemoveFirstKitten() {
-  kitten.shift()
+  kittens.shift()
 }
 
 function AppendKitten(name) {
@@ -25,9 +25,9 @@ function PrependKitten(name) {
 }
 
 function RemoveLastKitten() {
-  kitten.slice(-1)
+  kittens.slice(-1)
 }
 
 function RemoveFirstKitten() {
-  kitten.slice(1)
+  kittens.slice(1)
 }
