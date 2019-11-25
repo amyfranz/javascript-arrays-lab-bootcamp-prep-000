@@ -21,13 +21,13 @@ function AppendKitten(name) {
 }
 
 function PrependKitten(name) {
-  kittens.unshift(name)
+  kittens = name + kittens;
 }
 
 function RemoveLastKitten() {
-  kitten.pop()
+  kitten.slice(-1)
 }
 
 function RemoveFirstKitten() {
-  kitten.shift()
+  kitten.slice(1)
 }
